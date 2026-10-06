@@ -1,0 +1,68 @@
+{
+  "id": 6,
+  "title": "Freelance Brief",
+  "framework": "Astro",
+  "transport": "api",
+  "details": [],
+  "projects": [],
+  "actions": [],
+  "capacity": 0,
+  "adminOnly": false,
+  "hideForm": false,
+  "publicList": false,
+  "formNote": "Your details are used only to handle this request.",
+  "kind": "brief",
+  "eyebrow": "START A PROJECT",
+  "headline": "Tell me what you have in mind.",
+  "description": "A short brief is enough to start. Outline the work, your timeframe, and a comfortable budget.",
+  "button": "Send project brief",
+  "fields": [
+    {
+      "name": "name",
+      "label": "Your name",
+      "type": "text"
+    },
+    {
+      "name": "email",
+      "label": "Email address",
+      "type": "email"
+    },
+    {
+      "name": "project",
+      "label": "Project title",
+      "type": "text"
+    },
+    {
+      "name": "budget",
+      "label": "Budget range",
+      "type": "select",
+      "options": [
+        {
+          "value": "under-2k",
+          "label": "Under $2,000"
+        },
+        {
+          "value": "2k-5k",
+          "label": "$2,000\u2013$5,000"
+        },
+        {
+          "value": "5k-plus",
+          "label": "$5,000+"
+        }
+      ]
+    },
+    {
+      "name": "timeline",
+      "label": "Preferred timeframe",
+      "type": "text"
+    },
+    {
+      "name": "message",
+      "label": "Project details",
+      "type": "textarea"
+    }
+  ],
+  "success": "Your project brief is saved.",
+  "accent": "#365694",
+  "batch": false
+}
